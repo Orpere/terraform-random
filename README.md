@@ -41,16 +41,13 @@ terraform apply
 ```
 
 - This step will prompt `<<`Do you want to perform these actions?`>>`
-  - the answer should be **yes** 
-  
-
- 
+  - the answer should be **yes**
 
 ### 5 - check the result of the random
 
 - In this case was used random what should output ips numbers between 80 and 100
 
-```terraform 
+```terraform
 random_integer.Server[1]: Creating...
 random_integer.Server[0]: Creating...
 random_integer.Server[0]: Creation complete after 0s [id=90]
