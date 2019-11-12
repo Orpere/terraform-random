@@ -45,7 +45,7 @@ terraform apply
 
 ### Task - check the result of the random
 
-- In this case was used random what should give to your resource a pet name as bellow
+- In this case was used random what should output ips numbers between 80 and 100
 
 ```terraform 
 random_integer.Server[1]: Creating...
