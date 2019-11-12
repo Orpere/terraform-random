@@ -21,7 +21,7 @@ git clone git@github.com:orlando.pereira/terraform-random.git
 ### 2 - move to your repo folder
 
 ```bash
-cd Terraform-random
+cd terraform-random
 ```
 
 ### 3 - terraform init
