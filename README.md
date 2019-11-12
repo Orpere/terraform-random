@@ -1,12 +1,14 @@
-# Terraform-random -> repo that you can use to see how random work
+# terraform-random -> repo that you can use to see how random work
 
-## how can I use this repository?
+## how can I use this repository`?`
 
 This repo has as dependencies a command line or shell git and terraform.You can find the install instructions bellow on [EXTRAS](#extras) section.
 
 ## How can I use this repo`?`
 
-### Task - clone repo Terraform-random
+_Note_: my login on GitHub is capitalized and that is the reason why the "Orpere" appears like this.
+
+### 1 - clone repo terraform-random
 
 - open your shell or command line and go to the directory where you pretend to add the repo
 
@@ -15,16 +17,16 @@ cd <directory where pretend to add the repo>
 ```
 
 ```git
-git clone git@github.com:Orpere/Terraform-random.git
+git clone git@github.com:orpere/terraform-random.git
 ```
 
-### Task - move to your repo folder
+### 2 - move to your repo folder
 
 ```bash
 cd Terraform-random
 ```
 
-### Task - terraform init
+### 3 - terraform init
 
 - this will retrieve all dependencies for terraform files
 
@@ -32,18 +34,19 @@ cd Terraform-random
 terraform init
 ```
 
-### Task - run terraform apply
+### 4 - run terraform apply
 
 ```terraform
 terraform apply
 ```
 
-- This step will prompt <<Do you want to perform these actions?>>
-  the answer should be **yes** 
+- This step will prompt `<<`Do you want to perform these actions?`>>`
+  - the answer should be **yes** 
+  
 
  
 
-### Task - check the result of the random
+### 5 - check the result of the random
 
 - In this case was used random what should output ips numbers between 80 and 100
 
@@ -63,7 +66,7 @@ ips = [
 ]
 ```
 
-### Task - Terraform destroy
+### 6 - Terraform destroy
 
 ```terraform
 terraform destroy
