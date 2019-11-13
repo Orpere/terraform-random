@@ -12,6 +12,6 @@ resource "random_integer" "server" {
   count = "${var.machines}"
 }
 
-output "integer" {
+output "random_integer" {
   value = "${random_integer.server.*.result}"
 }
