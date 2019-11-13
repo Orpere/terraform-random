@@ -1,11 +1,10 @@
 provider "random" {
-  
+
 }
 
 variable "machines" {
   default = 2
 }
-
 
 resource "random_integer" "server" {
   min   = 80
