@@ -43,21 +43,21 @@ terraform apply
 
 ### 5 - check the result of the random
 
-- In this case was used random what should output ips numbers between 80 and 100
+- In this case was used random what should output integer between 80 and 100
 
 ```terraform
-random_integer.Server[1]: Creating...
-random_integer.Server[0]: Creating...
-random_integer.Server[0]: Creation complete after 0s [id=90]
-random_integer.Server[1]: Creation complete after 0s [id=90]
+random_integer.server[0]: Creating...
+random_integer.server[1]: Creating...
+random_integer.server[0]: Creation complete after 0s [id=90]
+random_integer.server[1]: Creation complete after 0s [id=89]
 
 Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 
 Outputs:
 
-ips = [
+integer = [
   90,
-  90,
+  89,
 ]
 ```
 

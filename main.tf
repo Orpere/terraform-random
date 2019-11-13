@@ -2,17 +2,17 @@ provider "random" {
   
 }
 
-variable "numberOfMachines" {
+variable "machines" {
   default = 2
 }
 
 
-resource "random_integer" "Server" {
+resource "random_integer" "server" {
   min   = 80
   max   = 100
-  count = "${var.numberOfMachines}"
+  count = "${var.machines}"
 }
 
-output "ips" {
-  value = "${random_integer.Server.*.result}"
+output "integer" {
+  value = "${random_integer.server.*.result}"
 }
